@@ -1,0 +1,24 @@
+constant int @c := 69;
+float @e;
+int @a;
+int @intreg;
+float @b;
+int @functie (int @parametru) ;
+constant char @stringulMeu := 'a';
+constant string @plsWork := "abcdefg";
+constant char @plsWork2FinalExport := "abcdefg";
+structura @mama{int @eu, char @ceva, string @idk, structura @substructura{int @membru1, char @membru2}};
+int @f [] := { 1,69,3,4,69 }; 
+int @vector[69];
+structura @tata{int @eu, char @ceva, string @idk};
+int @test( int @a, float @b, char @c);
+int @test( int @a, float @b);
+void @test( int @a, float @b);
+begin_progr
+@a := 5;
+@intreg ++;
+@e := 69.69;
+print("Valoare lui 2 + 3 este :", 2+3);
+print("Valoare lui 2 < 3 este :", 2<3);
+print("Valoare lui 2.0 + 67.69 este :", 67.69 + 2.0);
+end_progr
